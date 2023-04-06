@@ -21,7 +21,7 @@ requirements:
     - hatchling
   run:
     - python >=3.8
-    - fps >=0.0.8,<1
+    - jupyverse-api >=0.1.2,<1
     - fief-client-fastapi
 
 test:
