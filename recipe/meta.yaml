@@ -1,5 +1,5 @@
 {% set name = "fps-auth-fief" %}
-{% set version = "0.0.50" %}
+{% set version = "0.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fps_auth_fief-{{ version }}.tar.gz
-  sha256: 6848971e775451e42f6bd8eddc1bc856c23b0a9f2482bfcbc5eb187f5e0d1263
+  sha256: 25bebf37cb5b1b8ff607a556466c66bc187d89ee223fc4b67d9ce67e1efb5deb
 
 build:
   noarch: python
@@ -21,7 +21,7 @@ requirements:
     - hatchling
   run:
     - python >=3.8
-    - fps >=0.0.8,<1
+    - jupyverse-api >=0.1.2,<1
     - fief-client-fastapi
 
 test:
@@ -35,7 +35,7 @@ test:
 about:
   home: https://github.com/jupyter-server/jupyverse/tree/main/plugins/auth_fief
   summary: An FPS plugin for the authentication API, using Fief
-  keywords: jupyter, server, fastapi, pluggy, plugins
+  keywords: jupyter, server, fastapi, plugins
   dev_url: https://github.com/jupyter-server/jupyverse/tree/main/plugins/auth_fief
   license_file: COPYING.md
   license: BSD-3-Clause
