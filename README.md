@@ -1,11 +1,11 @@
-About fps-auth-fief
-===================
+About fps-auth-fief-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fps-auth-fief-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/jupyter-server/jupyverse/tree/main/plugins/auth_fief
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fps-auth-fief-feedstock/blob/main/LICENSE.txt)
 
 Summary: An FPS plugin for the authentication API, using Fief
 
