@@ -35,7 +35,7 @@ test:
 about:
   home: https://github.com/jupyter-server/jupyverse/tree/main/plugins/auth_fief
   summary: An FPS plugin for the authentication API, using Fief
-  keywords: jupyter, server, fastapi, pluggy, plugins
+  keywords: jupyter, server, fastapi, plugins
   dev_url: https://github.com/jupyter-server/jupyverse/tree/main/plugins/auth_fief
   license_file: COPYING.md
   license: BSD-3-Clause
