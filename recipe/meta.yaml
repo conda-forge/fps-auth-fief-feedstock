@@ -1,5 +1,5 @@
 {% set name = "fps-auth-fief" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fps_auth_fief-{{ version }}.tar.gz
-  sha256: 426c1e352236ddfd653621af0fd3098d54b082ed8a477932c40feecc79c45990
+  sha256: 686570930b3a03c4f204f22dec97e4759abba9a8588e4c0ceca860a945540476
 
 build:
   noarch: python
