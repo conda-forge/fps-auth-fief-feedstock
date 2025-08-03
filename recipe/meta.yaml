@@ -21,7 +21,7 @@ requirements:
     - hatchling
   run:
     - python >={{ python_min }}
-    - jupyverse-api >=0.10.0,<0.11.0
+    - jupyverse-api >=0.11.0,<0.12.0
     - fief-client-fastapi
 
 test:
