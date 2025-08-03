@@ -1,5 +1,5 @@
 {% set name = "fps-auth-fief" %}
-{% set version = "0.9.0" %}
+{% set version = "0.9.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/fps_auth_fief-{{ version }}.tar.gz
-  sha256: 96cf02ba8095e1589da000fb2dd199471b0ef0fb60f3f95a9545cc7e8545747e
+  sha256: 0624bfd1d0b2ddbce1633b0c85232cceba2586db22abf1611f8f1e3b7b93c003
 
 build:
   noarch: python
@@ -21,7 +21,7 @@ requirements:
     - hatchling
   run:
     - python >={{ python_min }}
-    - jupyverse-api >=0.10.0,<0.11.0
+    - jupyverse-api >=0.11.0,<0.12.0
     - fief-client-fastapi
 
 test:
