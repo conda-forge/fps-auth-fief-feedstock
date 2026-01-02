@@ -21,7 +21,7 @@ requirements:
     - uv-build
   run:
     - python >={{ python_min }}
-    - jupyverse-api >=0.12.0,<0.13.0
+    - jupyverse-api >=0.13.0,<0.14.0
     - fief-client-fastapi
 
 test:
