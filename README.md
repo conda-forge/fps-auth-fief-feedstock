@@ -7,9 +7,7 @@ Home: https://github.com/jupyter-server/jupyverse/tree/main/plugins/auth_fief
 
 Package license: BSD-3-Clause
 
-Summary: An FPS plugin for the authentication API, using Fief
-
-Development: https://github.com/jupyter-server/jupyverse/tree/main/plugins/auth_fief
+Summary: An FPS plugin for the authentication API, using Fief.
 
 Current build status
 ====================
