@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.9.8"
+  version: "0.10.0"
 
 package:
   name: fps-auth-fief
@@ -9,7 +9,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/f/fps-auth-fief/fps_auth_fief-${{ version }}.tar.gz
-    sha256: 9284d94c6fe873eaf9c2b2ff0d8566141633ab120644197fbda3fdff5d6a3fe7
+    sha256: b7a3906b3bc726936b55a26424ee0e7119b1eed02c21b959d9d8c3361b4c6257
 
 build:
   noarch: python
