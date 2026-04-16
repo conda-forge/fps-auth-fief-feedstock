@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.9.8"
+  version: "0.10.1"
 
 package:
   name: fps-auth-fief
@@ -9,7 +9,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/f/fps-auth-fief/fps_auth_fief-${{ version }}.tar.gz
-    sha256: 9284d94c6fe873eaf9c2b2ff0d8566141633ab120644197fbda3fdff5d6a3fe7
+    sha256: f4260258602a701132fda3a16532aff7a9b55de822168e3da4fd98f4cdea17d1
 
 build:
   noarch: python
@@ -24,8 +24,13 @@ requirements:
     - uv-build
   run:
     - python >=${{ python_min }}
-    - jupyverse-api >=0.14.0,<0.15.0
+    - fastapi-core
     - fief-client-fastapi
+    - fps
+    - httpx
+    - jupyverse-api >=0.15.0,<0.16.0
+    - jupyverse-auth >=0.2.0,<0.3.0
+    - pydantic
 
 tests:
   - python:
